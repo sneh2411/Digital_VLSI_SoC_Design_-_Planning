@@ -1,7 +1,7 @@
 # Digital_VLSI_SoC_Design_and_Planning
 This repository is mainly to understand the basics of opensource EDA tools, OpenLANE and skywaterPDK.
 # Table of Contents
-- [Day 1 : Inception of OpensourceEDA,openLANE and skywaterPDK](#inception-of-opensourceeda-openlane-and-skywaterpdk)
+- [Day 1 : Inception of open-source EDA,OpenLANE and skywaterPDK](#inception-of-open-sourceeda-openlane-and-skywaterpdk)
    - [How to talk to Computers](#How-to-talk-to-Computers)
      - [Introduction to QFN-48 Package,Chip,pad,core,die,Macro and IPs](#Introduction-to-QFN-48-Package-Chip-Pad-Core-Die-Macro-IP's) 
      - [Introduction to RISC-V Processor](#Introdction-to-RISC-V-Processor)
@@ -20,7 +20,7 @@ This repository is mainly to understand the basics of opensource EDA tools, Open
 - [Day 2 :  store instructions and memory](#load-and-store-instructions-and-memory)
   - [Completing the RISC-V CPU](#completing-the-risc-v-cpu)
      - [Acknowledgements](#acknowledgements)
-# Introduction to RISC-V ISA 
+# Inception of open-source EDA,OpenLANE and skywaterPDK 
 
 A RISC-V ISA is defined as a base integer ISA, which must be present in any implementation, plus optional extensions to the base ISA. Each base integer instruction set is characterized by
   1. Width of the integer registers (XLEN) 

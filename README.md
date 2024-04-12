@@ -22,12 +22,12 @@ This repository is mainly to understand the basics of opensource EDA tools, Open
      - [Acknowledgements](#acknowledgements)
 # Inception of open-source EDA OpenLANE and skywaterPDK 
 
-A RISC-V ISA is defined as a base integer ISA, which must be present in any implementation, plus optional extensions to the base ISA. Each base integer instruction set is characterized by
-  1. Width of the integer registers (XLEN) 
-  2. Corresponding size of the address space
-  3. Number of integer registers (32 in RISC-V)
+Objective of first part of the workshop :
+  1. Run the `picorv32a` design using Openlane flow
+  2. Calculate flop ratio and its percentage of D Flip flop
+Implementation of this task is presented in the form of screenshot
 
-More details on RISC-V ISA can be obtained [here](https://github.com/riscv/riscv-isa-manual/releases/download/draft-20200727-8088ba4/riscv-spec.pdf).
+More details on Openlane can be obtained [here](https://github.com/efabless/openlane).
 
 # Overview of GNU compiler toolchain
 

@@ -20,7 +20,7 @@ This repository is mainly to understand the basics of opensource EDA tools, Open
 - [Day 2 :  store instructions and memory](#load-and-store-instructions-and-memory)
   - [Completing the RISC-V CPU](#completing-the-risc-v-cpu)
      - [Acknowledgements](#acknowledgements)
-# Day 1 : Inception of open-source EDA OpenLANE and skywaterPDK 
+# Inception of open-source EDA OpenLANE and skywaterPDK 
 
 A RISC-V ISA is defined as a base integer ISA, which must be present in any implementation, plus optional extensions to the base ISA. Each base integer instruction set is characterized by
   1. Width of the integer registers (XLEN) 

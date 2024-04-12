@@ -1,7 +1,7 @@
 # Digital_VLSI_SoC_Design_and_Planning
 This repository is mainly to understand the basics of opensource EDA tools, OpenLANE and skywaterPDK.
 # Table of Contents
-- [Day 1 : Inception of open-source EDA OpenLANE and skywaterPDK](#inception-of-open-source-eda-openlane-and-skywaterpdk)
+- [Inception of open-source EDA OpenLANE and skywaterPDK](#inception-of-open-source-eda-openlane-and-skywaterpdk)
    - [How to talk to Computers](#How-to-talk-to-Computers)
      - [Introduction to QFN-48 Package,Chip,pad,core,die,Macro and IPs](#Introduction-to-QFN-48-Package-Chip-Pad-Core-Die-Macro-IP's) 
      - [Introduction to RISC-V Processor](#Introdction-to-RISC-V-Processor)

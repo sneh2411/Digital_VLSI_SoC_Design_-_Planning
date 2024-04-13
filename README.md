@@ -3,6 +3,7 @@ This repository is mainly to understand the basics of opensource EDA tools, Open
 # Table of Contents
 - [Inception of open-source EDA OpenLANE and skywaterPDK](#inception-of-open-source-eda-openlane-and-skywaterpdk)
 - [Good floorplan vs bad floorplan and introduction to library cells](#good-floorplan-vs-bad-floorplan-and-introdction-to-library-cells)
+- [Overview of GNU compiler toolchain](#overview-of-gnu-compiler-toolchain)
   - [Completing the RISC-V CPU](#completing-the-risc-v-cpu)
      - [Acknowledgements](#acknowledgements)
 # Inception of open-source EDA OpenLANE and skywaterPDK 

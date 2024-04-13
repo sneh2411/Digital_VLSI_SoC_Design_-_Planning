@@ -2,22 +2,7 @@
 This repository is mainly to understand the basics of opensource EDA tools, OpenLANE and skywaterPDK.
 # Table of Contents
 - [Inception of open-source EDA OpenLANE and skywaterPDK](#inception-of-open-source-eda-openlane-and-skywaterpdk)
-   - [How to talk to Computers](#How-to-talk-to-Computers)
-     - [Introduction to QFN-48 Package,Chip,pad,core,die,Macro and IPs](#Introduction-to-QFN-48-Package-Chip-Pad-Core-Die-Macro-IP's) 
-     - [Introduction to RISC-V Processor](#Introdction-to-RISC-V-Processor)
-     - [Execution from Software Applications to Hardware](#Execution-from-Software-Applications-to-Hardware)
-  - [SoC Design and OpenLANE](#SoC-Design-and-OpenLANE)
-     - [Introduction of all Components of Opensource Digital ASIC Design](#introduction-to-all-components-of-opensource-digital-ASIC-design)
-     - [Simplified RTL2GDS flow](#simplified-rtl2gds-flow)
-     - [Introduction to OpenLANE and Strive Chipsets](#introduction-to-openlane-and-strive-chipsets)
-     - [Introduction to OpenLANE detailed ASIC Design flow](#Introduction-to-OpenLANE-detailed-ASIC-design-flow)
-  - [Decode](#decode)
-     - [Register File Read and Write](#register-file-read-and-write)
-     - [Execute](#execute)
-     - [Control Logic](#control-logic)
-     - [Pipelined RISC-V CPU](#pipelined-risc-v-cpu)
-     - [Pipelinig the CPU](#pipelining-the-cpu)
-- [Day 2  store instructions and memory](#day-2-load-and-store-instructions-and-memory)
+- [Good floorplan vs bad floorplan and introduction to library cells](#good-floorplan-vs-bad floorplan-and-introduction-to-library-cells)
   - [Completing the RISC-V CPU](#completing-the-risc-v-cpu)
      - [Acknowledgements](#acknowledgements)
 # Inception of open-source EDA OpenLANE and skywaterPDK 
@@ -29,7 +14,7 @@ Implementation of this task is presented in the form of screenshot
 
 More details on Openlane can be obtained [here](https://github.com/efabless/openlane).
 
-# Overview of GNU compiler toolchain
+# Good floorplan vs bad floorplan and introduction to library cells
 
 The GNU Toolchain is a set of programming tools in Linux systems that programmers can use to make and compile their code to produce a program or library. So, how the machine code which is understandable by processer is explained below.
 

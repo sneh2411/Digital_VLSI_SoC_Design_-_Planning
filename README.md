@@ -17,12 +17,12 @@ This repository is mainly to understand the basics of opensource EDA tools, Open
      - [Control Logic](#control-logic)
      - [Pipelined RISC-V CPU](#pipelined-risc-v-cpu)
      - [Pipelinig the CPU](#pipelining-the-cpu)
-- [Day 2 :  store instructions and memory](#load-and-store-instructions-and-memory)
+- [Day 2  store instructions and memory](#day-2-load-and-store-instructions-and-memory)
   - [Completing the RISC-V CPU](#completing-the-risc-v-cpu)
      - [Acknowledgements](#acknowledgements)
 # Inception of open-source EDA OpenLANE and skywaterPDK 
-
-Objective of first part of the workshop :
+Lab1:
+The first objective of the workshop :
   1. Run the `picorv32a` design using Openlane flow
   2. Calculate flop ratio and its percentage of D Flip flop
 Implementation of this task is presented in the form of screenshot

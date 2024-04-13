@@ -2,7 +2,7 @@
 This repository is mainly to understand the basics of opensource EDA tools, OpenLANE and skywaterPDK.
 # Table of Contents
 - [Inception of open-source EDA OpenLANE and skywaterPDK](#inception-of-open-source-eda-openlane-and-skywaterpdk)
-- [Good floorplan vs bad floorplan and introduction to library cells](#good-floorplan-vs-bad floorplan-and-introduction-to-library-cells)
+- [Good floorplan vs bad floorplan and introduction to library cells](#good-floorplan-vs-bad-floorplan-and-introdction-to-library-cells)
   - [Completing the RISC-V CPU](#completing-the-risc-v-cpu)
      - [Acknowledgements](#acknowledgements)
 # Inception of open-source EDA OpenLANE and skywaterPDK 

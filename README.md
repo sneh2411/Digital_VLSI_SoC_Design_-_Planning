@@ -1,10 +1,10 @@
-# Digital_VLSI_SoC_Design_and_Planning
+d# Digital_VLSI_SoC_Design_and_Planning
 This repository is mainly to understand the basics of opensource EDA tools, OpenLANE and skywaterPDK. Here the focuus is on only the labs
 # Table of Contents
-- [Day 1  Inception of open-source EDA OpenLANE and skywaterPDK](#day1:inception-of-open-source-eda-openlane-and-skywaterpdk)
+- [Inception of open-source EDA OpenLANE and skywaterPDK](#inception-of-open-source-eda-openlane-and-skywaterpdk)
 - [Good floorplan vs bad floorplan and introduction to library cells](#good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
 
-# Day 1 : Inception of open-source EDA OpenLANE and skywaterPDK 
+# Inception of open-source EDA OpenLANE and skywaterPDK 
 Learning Task:
 
 The first objective of the workshop :

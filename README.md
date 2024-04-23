@@ -7,11 +7,6 @@ This repository is mainly to understand the basics of opensource EDA tools, Open
 # Inception of open-source EDA OpenLANE and skywaterPDK 
 Day 1 ::Learning Task:
 
-The first objective of the workshop :
-  1. Run the `picorv32a` design using Openlane flow
-  2. Calculate flop ratio and its percentage of D Flip flop
-Implementation of this task is presented in the form of screenshot
-
 Basic commands in Linux are needed
 `cd - change directory`
  `ls - list the files of directory`
@@ -20,60 +15,37 @@ Basic commands in Linux are needed
 `pwd - present working directory`
 `command --help - help for particular switches`
 
-![Screenshot from 2024-04-12 10-55-51]
-
-![Screenshot from 2024-04-12 10-56-16]
-
-![Screenshot from 2024-04-12 11-05-17]
-
-![Screenshot from 2024-04-12 11-27-01]
-
-![Screenshot from 2024-04-12 11-50-15]
-
-![Screenshot from 2024-04-12 11-43-23]
-(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/c86271c4-c063-4413-bdce-3800fb7eec4d)
-(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/bf0d45cd-a1fb-411a-9e0f-b02a34cebda5)
-(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/c6905ddb-9148-4c3f-aa30-d24721674298)
-![Screenshot from 2024-04-12 11-43-07](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/6848add4-ada0-4e2d-924f-da1335f08068)
-![Screenshot from 2024-04-12 11-41-04](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/b063c8fc-eada-4ab4-8840-e0925dd528c1)
-![Screenshot from 2024-04-12 11-40-21](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/fbe3a780-ef4d-499d-82b0-c3aab1f76475)
-![Screenshot from 2024-04-12 11-37-17](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/f3b40450-db6c-47d2-8586-6920e2c7f690)
-![Screenshot from 2024-04-12 11-36-07](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/e550a6e9-a349-45bd-ae2b-6b83ff4bbf5c)
-
-(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/c07032a2-8946-4057-905c-a676f1f25484)
-
-(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/b235a5c3-d694-4916-ac49-52fcafa6303f)
-
-(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/77b6a834-7f3e-4840-b0da-accb6698f705)
-
-
-
-
-(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/59ede303-c58b-4c4c-9f0e-96bb48077d79)
-
-(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/72f801bd-afcb-465d-a4b2-50875e301618)
-
-
-(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/a9481acf-21ff-4224-8571-f3cac1a3e884)
-es/disassemble.png)
- ![disassemble](Images/disassemble.png)  
+The first objective of the workshop :
+  1. Run the `picorv32a` design using Openlane flow
+  2. Calculate flop ratio and its percentage of D Flip flop
+Implementation of this task is presented in the form of screenshot
+     
+ ![Screenshot from 2024-04-12 11-43-07](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/6848add4-ada0-4e2d-924f-da1335f08068)
+ 
+The outcome of Synthesis tool gives:
+1. Total no of D Flip Flops = 1613
+2.  Total no of cells = 14876
+   The Flop ratio = Total no of D-Flip Flops / Total no of Cells
+                  = 10.84%
+    
 More details on Openlane can be obtained [here](https://github.com/efabless/openlane).
 
 # Good floorplan vs bad floorplan and introduction to library cells
+Day 2: Learning Task : To know the floorplan and review in layout by sing Magic software
+Floorplan is the arrangement of IPs in a chip
+  * Utization factor factor = Area occupied by netlist / Total area of core.
+  * Aspect ratio = Height / Width.
 
-The GNU Toolchain is a set of programming tools in Linux systems that programmers can use to make and compile their code to produce a program or library. So, how the machine code which is understandable by processer is explained below.
+![Screenshot from 2024-04-23 15-00-23](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/1d45866c-78ea-4113-a566-07bed152ad29)
 
-  * Preprocessor - Process source code before compilation. Macro definition, file inclusion or any other directive if present then are preprocessed. 
-  * Compiler - Takes the input provided by preprocessor and converts to assembly code.
-  * Assembler - Takes the input provided by compiler and converts to relocatable machine code.
-  * Linker - Takes the input provided by Assembler and converts to Absolute machine code.
+![Screenshot from 2024-04-16 15-15-05](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/92e19f87-aa9f-4932-bdd5-ab52688fd3fa)
+![Screenshot from 2024-04-16 16-29-42](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/b710d266-aee1-4957-a372-6bf4a9abcc1e)
+![Screenshot from 2024-04-16 16-55-44](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/f42999e3-a898-41ed-8a88-eaa8844ea02e)
+![Screenshot from 2024-04-16 16-57-12](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/718737fc-53df-4a8c-b745-ce148e43a0bf)
 
-Under the risc-v toolchain, 
-  * To use the risc-v gcc compiler use the below command:
+![Screenshot from 2024-04-16 17-15-00](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/59cff69a-b449-476f-8703-c7925325c38b)
 
-    `riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o <object filename> <C filename>`
-
-    More generic command with different options:
+    
 
     `riscv64-unknown-elf-gcc <compiler option -O1 ; Ofast> <ABI specifier -lp64; -lp32; -ilp32> <architecture specifier -RV64 ; RV32> -o <object filename> <C      filename>`
 

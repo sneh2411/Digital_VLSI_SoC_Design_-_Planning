@@ -5,7 +5,7 @@ This repository is mainly to understand the basics of opensource EDA tools, Open
 - [Good floorplan vs bad floorplan and introduction to library cells](#good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
 
 # Inception of open-source EDA OpenLANE and skywaterPDK 
-Learning Task:
+Day 1 ::Learning Task:
 
 The first objective of the workshop :
   1. Run the `picorv32a` design using Openlane flow

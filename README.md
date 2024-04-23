@@ -72,4 +72,4 @@ Next is to create the lef file from the layout
    
 
 # Acknowledgements
-My heart felt thanks to Mr. Kunal Ghosh and Mr. Nickson Jose for meticulously framing the theory and practical from RTL to GDSII using opensource softwares. 
+My heart felt thanks to Mr. Kunal Ghosh , Mr. Mohammed Shaalan, Mr. Tim Edwards and Mr. Nickson Jose for meticulously framing the theory and practical from RTL to GDSII using opensource softwares. 

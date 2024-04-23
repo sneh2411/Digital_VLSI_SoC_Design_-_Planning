@@ -1,9 +1,9 @@
-d# Digital_VLSI_SoC_Design_and_Planning
+# Digital_VLSI_SoC_Design_and_Planning
 This repository is mainly to understand the basics of opensource EDA tools, OpenLANE and skywaterPDK. Here the focuus is on only the labs
 # Table of Contents
 - [Inception of open-source EDA OpenLANE and skywaterPDK](#inception-of-open-source-eda-openlane-and-skywaterpdk)
 - [Good floorplan vs bad floorplan and introduction to library cells](#good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
-
+- [Design library cell using Magic Layout and ngspice Characterisation](#design-library-cell-using-magic-layout-and-ngspice-characterisation)
 # Inception of open-source EDA OpenLANE and skywaterPDK 
 Day 1 ::Learning Task:
 
@@ -38,34 +38,26 @@ Floorplan is the arrangement of IPs in a chip
 
 ![Screenshot from 2024-04-23 15-00-23](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/1d45866c-78ea-4113-a566-07bed152ad29)
 
+# Design library cell using Magic Layout and ngspice Characterisation
+
+Day 3: Learning Task : To know the floorplan and review in layout by sing Magic software
 ![Screenshot from 2024-04-16 15-15-05](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/92e19f87-aa9f-4932-bdd5-ab52688fd3fa)
 ![Screenshot from 2024-04-16 16-29-42](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/b710d266-aee1-4957-a372-6bf4a9abcc1e)
 ![Screenshot from 2024-04-16 16-55-44](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/f42999e3-a898-41ed-8a88-eaa8844ea02e)
+The changes done in  output capacitor and running the file again gives
 ![Screenshot from 2024-04-16 16-57-12](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/718737fc-53df-4a8c-b745-ce148e43a0bf)
+Now plotting the graph by command ` plot y vs a `
 
 ![Screenshot from 2024-04-16 17-15-00](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/59cff69a-b449-476f-8703-c7925325c38b)
 
     
 
-    `riscv64-unknown-elf-gcc <compiler option -O1 ; Ofast> <ABI specifier -lp64; -lp32; -ilp32> <architecture specifier -RV64 ; RV32> -o <object filename> <C      filename>`
+   
 
-    More details on compiler options can be obtained [here](https://www.sifive.com/blog/all-aboard-part-1-compiler-args)
-
-  * To view assembly code use the below command,
-    
-    `riscv64-unknown-elf-objdump -d <object filename>`
-    
-  * To use SPIKE simualtor to run risc-v obj file use the below command,
   
-    `spike pk <object filename>`
     
-    To use SPIKE as debugger
     
-    `spike -d pk <object Filename>` with degub command as `until pc 0 <pc of your choice>`
-
-    To install complete risc-v toolchain locally on linux machine,
-      1. [RISC-V GNU Toolchain](http://hdlexpress.com/RisKy1/How2/toolchain/toolchain.html)
-      2. [RISC-V ISA SImulator - Spike](https://github.com/kunalg123/riscv_workshop_collaterals)
+     
     
     Once done with installation add the PATH to .bashrc file for future use.
 

@@ -12,6 +12,51 @@ The first objective of the workshop :
   2. Calculate flop ratio and its percentage of D Flip flop
 Implementation of this task is presented in the form of screenshot
 
+Basic commands in Linux are needed
+`cd - change directory`
+ `ls - list the files of directory`
+`clear - clears the terminal`
+`mkdir - make directory`
+`pwd - present working directory`
+`command --help - help for particular switches`
+
+![Screenshot from 2024-04-12 10-55-51]
+
+![Screenshot from 2024-04-12 10-56-16]
+
+![Screenshot from 2024-04-12 11-05-17]
+
+![Screenshot from 2024-04-12 11-27-01]
+
+![Screenshot from 2024-04-12 11-50-15]
+
+![Screenshot from 2024-04-12 11-43-23]
+(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/c86271c4-c063-4413-bdce-3800fb7eec4d)
+(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/bf0d45cd-a1fb-411a-9e0f-b02a34cebda5)
+(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/c6905ddb-9148-4c3f-aa30-d24721674298)
+![Screenshot from 2024-04-12 11-43-07](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/6848add4-ada0-4e2d-924f-da1335f08068)
+![Screenshot from 2024-04-12 11-41-04](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/b063c8fc-eada-4ab4-8840-e0925dd528c1)
+![Screenshot from 2024-04-12 11-40-21](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/fbe3a780-ef4d-499d-82b0-c3aab1f76475)
+![Screenshot from 2024-04-12 11-37-17](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/f3b40450-db6c-47d2-8586-6920e2c7f690)
+![Screenshot from 2024-04-12 11-36-07](https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/e550a6e9-a349-45bd-ae2b-6b83ff4bbf5c)
+
+(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/c07032a2-8946-4057-905c-a676f1f25484)
+
+(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/b235a5c3-d694-4916-ac49-52fcafa6303f)
+
+(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/77b6a834-7f3e-4840-b0da-accb6698f705)
+
+
+
+
+(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/59ede303-c58b-4c4c-9f0e-96bb48077d79)
+
+(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/72f801bd-afcb-465d-a4b2-50875e301618)
+
+
+(https://github.com/sneh2411/Digital_VLSI_SoC_Design_-_Planning/assets/46631767/a9481acf-21ff-4224-8571-f3cac1a3e884)
+es/disassemble.png)
+ ![disassemble](Images/disassemble.png)  
 More details on Openlane can be obtained [here](https://github.com/efabless/openlane).
 
 # Good floorplan vs bad floorplan and introduction to library cells
